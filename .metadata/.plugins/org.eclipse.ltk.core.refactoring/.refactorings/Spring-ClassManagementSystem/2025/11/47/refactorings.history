@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;faculty&apos; from expression &apos;apc.getBean(&quot;faculty&quot;,Faculty.class)&apos;&#x0D;&#x0A;- Original project: &apos;Spring-ClassManagementSystem&apos;&#x0D;&#x0A;- Variable name: &apos;faculty&apos;&#x0D;&#x0A;- Destination method: &apos;com.model.Controller.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;apc.getBean(&quot;faculty&quot;,Faculty.class)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;faculty&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.model{Controller.java" name="faculty" replace="true" replaceAllInThisFile="false" selection="1162 36" stamp="1763702525610" varType="false" version="1.0"/>
+</session>

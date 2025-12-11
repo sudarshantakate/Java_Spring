@@ -1,0 +1,8 @@
+1763642512102	Extract local variable 'bean'
+1763642915507	Extract local variable 'student'
+1763642998208	Extract local variable 'college'
+1763644222711	Extract local variable 'applicationContext'
+1763644372223	Extract local variable 'apc'
+1763644755362	Extract local variable 'ApplicationContext'
+1763698157678	Copy package
+1763698164823	Copy file

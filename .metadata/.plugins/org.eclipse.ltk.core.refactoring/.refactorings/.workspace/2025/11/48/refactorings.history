@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;MVC-1&apos;" deleteContents="false" description="Delete resource &apos;MVC-1&apos;" element1="/MVC-1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1764398193049"/>&#x0A;<refactoring comment="Rename Java project &apos;Java-IOC&apos; to &apos;IOC-Java&apos;&#x0D;&#x0A;- Original element: &apos;Java-IOC&apos;&#x0D;&#x0A;- Renamed element: &apos;Java-IOC&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Java-IOC&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Java-IOC" name="IOC-Java" references="true" stamp="1764423180521" version="1.0"/>
+</session>

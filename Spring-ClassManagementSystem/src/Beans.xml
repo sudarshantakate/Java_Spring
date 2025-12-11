@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+    <bean id="course" class="com.model.Course">
+        <property name="courseId" value="411"/>
+        <property name="courseName" value="Java"/>
+    </bean>
+
+    <bean id="faculty" class="com.model.Faculty" autowire="byName">
+        <property name="facultyId" value="311"/>
+        <property name="facultyName" value="Sumi"/>
+        <property name="facultyAddress" value="Pune"/>
+        <property name="facultyMobileNo" value="9922877396"/>
+        <property name="facultyEmailID" value="sumi@gmail.com"/>
+        
+    </bean>
+
+    <bean id="batch" class="com.model.Batch" autowire="byName">
+        <property name="batchId" value="211"/>
+        <property name="batchName" value="Morning"/>
+        <property name="batchTime" value="9am"/>
+       
+    </bean>
+
+    <bean id="stud" class="com.model.Student" autowire="byName" >
+        <property name="studentId" value="511"/>
+        <property name="studentName" value="Sudarshan"/>
+        <property name="studentAddress" value="Pune"/>
+        <property name="studentMobileNo" value="8482929105"/>
+        <property name="studentEmailId" value="sudarshan@gmail.com"/>
+       
+    </bean>
+
+</beans>
